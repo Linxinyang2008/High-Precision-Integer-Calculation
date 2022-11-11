@@ -3,7 +3,7 @@
 		  https://www.cnblogs.com/h-hg/p/8366142.html (Author: h_hg)
 ### Appreciate for the resources.
 	
-## I modified some value names and value type, to make sure auto-matching can work, and let the value names won't be duplicated.
+## I have modified some value names and value type, to make sure auto-matching can work, and let the value names won't be duplicated.
 
 ## Modified: 
 		* All elements : "template<class T>"
