@@ -1,6 +1,6 @@
 # Copyright Declaration:
 ### This header file is quoted from
-		  https://www.cnblogs.com/h-hg/p/8366142.html (`Author: h_hg`)
+		  https://www.cnblogs.com/h-hg/p/8366142.html (Author: h_hg)
 ### Appreciate for the resources.
 	
 ## I have modified some value names and value type, to make sure auto-matching can work, and let the value names won't be duplicated.
