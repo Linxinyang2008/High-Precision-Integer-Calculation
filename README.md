@@ -20,7 +20,7 @@
 
 ###### Maybe my coding skill is too ~~Clumsy~~
 
-# Author : Linxinyang2008 from Golden Apple Jincheng No.1 Seconday School Chengdu , PRC
+* Author : Linxinyang2008 from Golden Apple Jincheng No.1 Seconday School Chengdu , PRC
 
 ```cpp
 2022.11.11 Submit to GitHub
