@@ -1,0 +1,46 @@
+		friend std::istream& operator >> (std::istream &is, exint <T> &a){
+			delete[] a.num;
+			T max = 16;
+			a.num = new T[max];
+			//Judge sign
+			char c = getchar();a.len = 0;
+			if(c == '-') a.sign = false;
+			else if(c == '+') a.sign = true;
+			else if(isdigit(c)){//the first number
+				a.num[a.len] = c - '0';
+				++a.len;
+			}
+			else{
+				a.sign = true;
+				a.num[a.len] = 0;
+				++a.len;
+				return is;
+			}
+			//make sure the first bit is inputed
+			if(a.len == 0){
+				c = getchar();
+				if(c >= '1' && c <= '9'){
+					a.num[a.len] = c - '0';
+					++a.len;
+				}
+				else{
+					a.sign = true;
+					a.num[a.len] = 0;
+					++a.len;
+					return is;
+				}
+			}
+			while(c = is.peek() && c >= '0' && c <= '9'){
+				c = getchar();//is >> c;
+				if(c == ' ' || c == '\t' || c == '\n' || c == EOF)break;
+				a.num[a.len] = c - '0';
+				if(++a.len == max){
+					max *= 2;
+					T *temp = new T[max];
+					memcpy(temp, a.num, sizeof(T) * a.len);
+					delete[] a.num;
+					a.num = temp;
+				}
+			}
+			return is;
+		}
