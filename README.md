@@ -36,9 +36,9 @@
 		* exint :: operator -- () const;
 		* exread()
 		* ValueNameToString() //Declared by preprocesser
-
-###### Maybe my coding skill is too ~~Clumsy~~
 ```
+###### Maybe my coding skill is too ~~Clumsy~~
+
 * Author : Linxinyang2008 from Golden Apple Jincheng No.1 Seconday School Chengdu , PRC
 
 ```cpp
