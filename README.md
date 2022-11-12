@@ -1,6 +1,6 @@
 # exint - A High-Precision-Integer-Calculation Header File.
 
-### Particially edited and devoloped for numerical calculations greater than 10^38 in C++ language.
+### Particially edited and devoloped for numerical calculations greater than 10^38(Max__int128_t) in C++ language.
 
 ## Installation:
 > #1. Call as a local header file by preprocessor:
