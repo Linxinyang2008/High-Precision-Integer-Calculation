@@ -46,4 +46,6 @@
 2022.11.11 Updated ReadMe.md
 2022.11.11 Complied from exint.h to exint.h.gch
 
+2022.11.12 Updated test.cpp ( Added operator calling test and corrected preprocessor calling
+	mistakes that got into the way of compiling)
 ```
