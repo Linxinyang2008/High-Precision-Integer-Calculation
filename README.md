@@ -17,6 +17,25 @@
 #include <exint.hpp>
 ```
 
+## Tips
+The input part is warned by compiler, as a result it's better not to use exread() and cin >> 
+	to input exint<> type data directly.
+	
+### Solution
+You're recommanded to initialize them by being assigned with 'std :: string' or 'unsigned long long'
+For example:
+```cpp
+exint<int> example;
+std :: string temp;
+
+int main(void){
+	cin >> temp;
+	example = temp;
+	cout << example << endl;
+	
+	return 0;
+}
+
 ## Copyright Declaration:
 ### This header file is quoted from
 		  https://www.cnblogs.com/h-hg/p/8366142.html (Author: h_hg)
