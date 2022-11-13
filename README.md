@@ -18,11 +18,10 @@
 ```
 
 ## Tips
-The input part is warned by compiler, as a result it's better not to use exread() and cin >> 
-	to input exint<> type data directly.
+> The input part is warned by compiler, as a result it's better not to use exread() and cin >> to input exint<> type data directly.
 	
 ### Solution
-You're recommanded to initialize them by being assigned with 'std :: string' or 'unsigned long long'
+* You're recommanded to initialize them by being assigned with 'std :: string' or 'unsigned long long'
 For example:
 ```cpp
 exint<int> example;
